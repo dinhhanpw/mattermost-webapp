@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - "14"
+
+script:
+  - npm test
+  - npm run build
+
+# deploy:
+#   provider: heroku
+#   app: pw-my-app
+#   api_key: $API_KEY
